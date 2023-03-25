@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/github.io/CharacterCreator/static/css/main.0a24babb.css",
+    "main.js": "/github.io/CharacterCreator/static/js/main.11d7e103.js",
+    "static/js/787.77ec2231.chunk.js": "/github.io/CharacterCreator/static/js/787.77ec2231.chunk.js",
+    "static/media/person.png": "/github.io/CharacterCreator/static/media/person.0b4e801630eaa2fff18b.png",
+    "static/media/shirt2.png": "/github.io/CharacterCreator/static/media/shirt2.3e5947d17fcd0e934133.png",
+    "static/media/shirt3.png": "/github.io/CharacterCreator/static/media/shirt3.07f93a9d3a0457f3bc22.png",
+    "static/media/shoes3.png": "/github.io/CharacterCreator/static/media/shoes3.c259ffa8770ca31c1476.png",
+    "static/media/shirt1.png": "/github.io/CharacterCreator/static/media/shirt1.532aae903d3d3311f056.png",
+    "static/media/shoes2.png": "/github.io/CharacterCreator/static/media/shoes2.7cf4de84b9d7908910b7.png",
+    "static/media/shoes1.png": "/github.io/CharacterCreator/static/media/shoes1.2673b9b9dcfec6f73d30.png",
+    "static/media/logo.svg": "/github.io/CharacterCreator/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/github.io/CharacterCreator/index.html",
+    "main.0a24babb.css.map": "/github.io/CharacterCreator/static/css/main.0a24babb.css.map",
+    "main.11d7e103.js.map": "/github.io/CharacterCreator/static/js/main.11d7e103.js.map",
+    "787.77ec2231.chunk.js.map": "/github.io/CharacterCreator/static/js/787.77ec2231.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0a24babb.css",
+    "static/js/main.11d7e103.js"
+  ]
+}
