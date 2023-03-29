@@ -1,5 +1,4 @@
 import './App.css';
-import person from './images/person.png'
 import * as React from 'react';
 
 const Creator = ({}) => {
@@ -8,6 +7,8 @@ const Creator = ({}) => {
     const [shoes, setShoes] = React.useState(require(imagePath + "shoes1.png"));
     const [shirt, setShirt] = React.useState(require(imagePath + "shirt1.png"));
     const [pant, setPant] = React.useState(require(imagePath + "pant1.png"));
+    const [person, setPerson] = React.useState(require(imagePath + "person.png"));
+    const [personString, setPersonString] = React.useState("person.png");
     const [hatNum, setHatNum] = React.useState(1);
     const totalHats = 3;
     const [shoesNum, setShoesNum] = React.useState(1);
@@ -109,6 +110,16 @@ const Creator = ({}) => {
         setShoes(require(imagePath + "shoes" + shoesNumTemp.toString() + ".png"))
     };
 
+    const changePersonClick = () => {
+        if (personString == "person.png" ){
+            setPersonString("person2.png")
+            setPerson(require(imagePath + "person2.png"));
+        } else {
+            setPersonString("person.png")
+            setPerson(require(imagePath + "person.png"));
+        }
+    }
+
     return (
         <div>
             <img src={person} style={{flex:4}} className="personImage" alt="person silhoutte"/>
@@ -125,6 +136,8 @@ const Creator = ({}) => {
             <button className= "pantRight" onClick={pantRightClick} style={{flex:1}}>&gt;</button>
             <button className= "shoesLeft" onClick={shoesLeftClick} style={{flex:1}}>&lt;</button>
             <button className= "shoesRight" onClick={shoesRightClick} style={{flex:1}}>&gt;</button>
+
+            <button className= "changePerson" onClick={changePersonClick} style={{flex:1}}>Swap Body</button>
         </div>
     )
 }

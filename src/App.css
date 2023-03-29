@@ -41,6 +41,7 @@
   position:absolute;
   top: 20px;
 }
+
 .clothesImages{
   position:absolute;
   top: 20px;
@@ -100,4 +101,10 @@
   text-align: center;
   left: 200px;
   font-size: 24px;
+}
+
+.changePerson {
+  position:absolute;
+  top: 20px;
+  left: 600px;
 }
